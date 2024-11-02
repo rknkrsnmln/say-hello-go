@@ -1,0 +1,28 @@
+{
+    "editor.tokenColorCustomizations": {
+        "[Dracula]": {
+            "textMateRules": [
+                {
+                    "scope": "source.go",
+                    "settings": {
+                        "foreground": "#6dd8ce"
+                    }
+                }
+            ]
+        }
+    },
+    "go.inlayHints.parameterNames": true,
+    "go.inlayHints.compositeLiteralFields": true,
+    "go.inlayHints.assignVariableTypes": true,
+    "gopls": {
+        "ui.semanticTokens": true
+    },
+    "[go]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "golang.go"
+    },
+    "workbench.colorTheme": "Default Dark Modern",
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "workbench.iconTheme": "eq-material-theme-icons-ocean",
+    "code-runner.runInTerminal": true
+}
